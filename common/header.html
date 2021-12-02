@@ -29,7 +29,7 @@ api.decorateWidget("post-stream:before", helper => {
       categoryd = topicCategory ? topicCategory : category;
 
     composerController.open({
-      action: window.open("http://tech.forums.softwareag.com/new-topic","_self"),
+      action: window.open("/new-topic","_self"),
       categoryId: categoryd,
       draftKey: composerModal.DRAFT
     });
